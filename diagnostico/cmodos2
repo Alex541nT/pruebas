@@ -1,0 +1,69 @@
+520  cd config
+  521  ls
+  522  vi config
+  523  vi  known_hosts 
+  524  ssh saint
+  525  exit
+  526  ssh saint
+  527  ifconfig
+  528  ping google.com
+  529  cd ~/.ssh
+  530  vi known_hosts 
+  531  exit
+  532  ssh repqa
+  533  \
+  534  exit
+  535  ping webfilter.lan
+  536  ping web-filter.lan
+  537  history
+  538  history comandosusados
+  539  history > comandosusados
+  540  ssh saint
+  541  exdit
+  542  exit
+  543  ls
+  544  cd projets
+  545  cd projects
+  546  git init
+  547  git clone git@github.com:sosvia/saint-diagnostic.git
+  548  openssl dgst ?h
+  549  -sha256 
+  550  clear
+  551  yum install openssl-dev*
+  552  sudo yum install openssl-dev*
+  553  openssl dgst ?h
+  554  clear
+  555  ls
+  556  cd ..
+  557  cd /
+  558  ls
+  559  cd /etc
+  560  ls
+  561  cd /ss1
+  562  cd ssl
+  563  ls
+  564  vi openssl.cnf
+  565  ls
+  566  vi certs/
+  567  cd certs
+  568  ls
+  569  vi openssl.cnf
+  570  clear;ls
+  571  exit
+  572  ssh saint
+  573  ssh alpha
+  574  clear
+  575  ssh alpha
+  576  shh alpha
+  577  ssh alpha
+  578  exit
+  579  cd ~/.ssh    //nos movemos al ssh 
+  580  ls
+  581  scp id_rsa.webfilter repqa:/tmp    // para compiar de ssh al server  checar config para ver que server hay.
+  582  history
+  583  history > comdos
+  584  ls
+  585  scp cmodos /.
+  586  scp comdos /.
+  587  scp comdos ./
+  588  rm comdos

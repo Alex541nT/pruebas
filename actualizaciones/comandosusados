@@ -1,0 +1,539 @@
+    1  cd /run
+    
+    3  ls
+    4  cd /run/media/alex/VBOXADDITIONS_5.1.14_112924/
+    5  ls
+    6  sudo ./runasroot.sh 
+    7  sudo ./VBoxLinuxAdditions.run 
+    8  cat /var/log/VBoxGuestAdditions.log 
+    9  sudo dnf install -y subversion binutils bzip2 gcc gcc-c++ gawk gettext git-core flex ncurses-devel ncurses-compat-libs zlib-devel zlib-static make patch unzip perl-ExtUtils-MakeMaker perl-Thread-Queue  glibc glibc-devel glibc-static quilt sed sdcc intltool sharutils bison wget openssl-devel
+   10  sudo ./VBoxLinuxAdditions.run 
+   11  gcc --version
+   12  g++ --version
+   13  clear;ls
+   14  uname -r
+   15  sudo dnf install kernel-devel kernel-headers
+   16  uname -r
+   17  cd /run/media/alex/VBOXADDITIONS_5.1.14_112924/
+   18  uname -r
+   19  sudo ./VBoxLinuxAdditions.run 
+   20  cat /var/log/VBoxGuestAdditions.log
+   21  sudo dnf install kernel-devel kernel-headers
+   22  sudo dnf install perl
+   23  sudo dnf install boost-devel
+   24  cat /var/log/VBoxGuestAdditions.log
+   25  sudo ./VBoxLinuxAdditions.run 
+   26  exit
+   27  sudo ls
+   28  sudo ls /media/sf_Public/
+   29  ll /media/sf_Public/
+   30  sudo ll /media/sf_Public/
+   31  sudo ls /media/sf_Public/
+   32  sudo ls -l /media/sf_Public/
+   33  sudo service sshd start
+   34  ifconfig
+   35  ssh 192.168.1.1
+   36  ssh root@192.168.1.1
+   37  ifconfig
+   38  ssh root@172.16.5.187
+   39  ssh -p 56797 root@172.16.5.187
+   40  clar;ls
+   41  clear;ls
+   42  sudo ls /media/sf_Public/
+   43  clear
+   44  sudo adduser alex vboxsf 
+   45  sudo usermod -aG vboxsf $(alex)
+   46   adduser alex vboxsf 
+   47  sudo useradd vboxsf alex
+   48  sudo useradd -G vboxsf alex
+   49  sudo ls -l /media/sf_Public/
+   50  usermod -g vboxsf alex
+   51  sudo usermod -g vboxsf alex
+   52  cd /media/sf_Public/
+   53  reboot
+   54  cd /home/alex/
+   55  ls
+   56  ssh updqa
+   57  scp updqa:/var/www/html/updates/qa/2.0.0-RTM-1-g40e72cd.bin ./
+   58  ll
+   59  ll -h
+   60  scp 2.0.0-RTM-1-g40e72cd.bin saint:/tmp
+   61  vi ~/.ssh/config
+   62  ssh alpha
+   63  history
+   64  history 
+   65  history | grep g++
+   66  clear;ls\
+   67  clear;ls
+   68  rm 2.0.0-RTM-1-g40e72cd.bin 
+   69  ls
+   70  ssh-keygen -t rsa -b 4096 -C "alejandro.mendoza@saint.mx"
+   71  ssh-add ~/.ssh/id_rsa
+   72  cat ~/.ssh/id_rsa.pub
+   73  cd trabajo
+   74  git clone https://github.com/sosvia/saintblu.git
+   75  ls
+   76  cd saintblu/
+   77  ls
+   78  cd ..
+   79  rm -rf saintblu
+   80  ls
+   81  git clone https://github.com/sosvia/saintblu-webfilter.git
+   82  cat ~/.ssh/id_rsa
+   83  cat ~/.ssh/id_rsa.pub
+   84  git init
+   85  git status
+   86  vi hola.txt
+   87  ls
+   88  vi hola.txt 
+   89  history 
+   90  ls
+   91  vi hola.txt 
+   92  cd trabajo
+   93  ls
+   94  cd saintblu-webfilter/
+   95  ls
+   96  shh man
+   97  clear
+   98  cd..
+   99  cd ..
+  100  gcc
+  101  vi hola.cpp
+  102  ls
+  103  cd ..
+  104  ls
+  105  cd ..
+  106  ls
+  107  cd ..
+  108  ls
+  109  cd etc
+  110  cd gdm
+  111  ls
+  112  su
+  113  pegaso123
+  114  sudo
+  115  su
+  116  su -
+  117  ls
+  118  cd..
+  119  cd ..
+  120  ls
+  121  cd home
+  122  ls
+  123  cd alex
+  124  ls
+  125  cd trabajo/
+  126  ls
+  127  shh alpha
+  128  cd saintblu-webfilter/
+  129  shh alpha
+  130  ls
+  131  ssh alpha
+  132  xlear
+  133  clear
+  134  cd''
+  135  ls
+  136  cd''
+  137  cd//
+  138  cd;;
+  139  cd..
+  140  cd ..
+  141  ;s
+  142  ls
+  143  kill man
+  144  cd..
+  145  cd ..
+  146  ls
+  147  cd ..
+  148  ls
+  149  cd ..
+  150  ls
+  151  cd ..
+  152  ls
+  153  cd home
+  154  ls
+  155  cd alex
+  156  ls
+  157  cd trabajo/
+  158  ls
+  159  cd saintblu-webfilter/
+  160  ls
+  161  history
+  162  lsDemonstration of how to sign the web-filter.
+  163  Crontab analysis
+  164  The badsock configuration file
+  165  Review of GitHub repositories
+  166  ssh alpha
+  167  get ini
+  168  init git
+  169  ini git
+  170  git init
+  171  git status
+  172  vi /etc/init.d/badsock
+  173  ls
+  174  clear
+  175  cd..
+  176  cd :
+  177  cd ..
+  178  ls
+  179  clear
+  180  history
+  181  ls
+  182  cd trabajo
+  183  ls
+  184  vi hola.cpp 
+  185  gcc hola.cpp -o hola
+  186  vi hola.cpp 
+  187  gcc hola.cpp -o hola
+  188  vi hola.cpp 
+  189  gcc hola.cpp -o hola
+  190  cd trabajo
+  191  ls
+  192  gcc hola.cpp -o hola
+  193  vi hola.cpp 
+  194  gcc hola.cpp -o hola
+  195  ./hola
+  196  clear
+  197  cd ..
+  198  ls
+  199  mkdir prueba
+  200  ls
+  201  cd prueba/
+  202  cd helloword
+  203  echo "hola git " >readme
+  204  ls
+  205  vi readme 
+  206  git init
+  207  git add readme
+  208  git commit -d "firts commit"
+  209  git commit -d "First commit"
+  210  git commit -d "First commit" 
+  211  git commit -d "First commit"
+  212  git commit -d "firts commit"
+  213  ls
+  214  git commit -d "firts commit"
+  215  git commit -d "First commit"
+  216  ls
+  217  git commit -d "First commit"
+  218  git commit -q "First commit"
+  219  git add readme
+  220  git commit -d "First commit"
+  221  git commit -v "First commit"
+  222  git clone https://github.com/sosvia/badsock.git
+  223  git clone git@github.com:sosvia/badsock.git
+  224  ls
+  225  cd badsock
+  226  ls
+  227  vi main.c
+  228  vi badsock.h
+  229  ls
+  230  clear
+  231  git branch
+  232  ls
+  233  exit
+  234  ls
+  235  cd prueba
+  236  ls
+  237  git status
+  238  git log
+  239  cd ..
+  240  ls
+  241  fit checkout
+  242  git checkout
+  243  clear
+  244  ls
+  245  ssh alpha
+  246  ping saint-webfilter.lan
+  247  ping saintblu.lan
+  248  ping safelearnig.lsn
+  249  ping safelearnig.lan
+  250  ping safelearning.lan
+  251  clear<
+  252  clear;ls
+  253  ~/.ssh/
+  254  cd ~/.ssh/
+  255  pwd
+  256  ssh github.com
+  257  vi known_hosts 
+  258  ssh github.com
+  259  vi known_hosts 
+  260  ssh github.com
+  261  vi known_hosts 
+  262  ll
+  263  vi config
+  264  chmod 0600 *
+  265  vi config
+  266  ssh -p56797 root@saint-webfilter.lan
+  267  ssh saint
+  268  exit
+  269  ping bancomer.com
+  270  wget -O- bancomer.com
+  271  ping bancomer.com
+  272  ls
+  273  cd ..
+  274  ls
+  275  ls -l
+  276  sudo systemsettings
+  277  history
+  278  ~/.ssh
+  279  cd ~/.ssh
+  280  ls
+  281  exit
+  282  cd saint-webfilter.lan
+  283  ssh saint
+  284  cd ~/.ssh
+  285  ssh saint
+  286  /etc/init.d/badsock restart
+  287  ls
+  288  vi known_hosts 
+  289  ssh alpha
+  290  cd ''
+  291  cd ..
+  292  ls
+  293  ~/.ssh
+  294  cd ~/.ssh
+  295  ssh saint
+  296  exit
+  297  history
+  298  clear:ls
+  299  exit
+  300  ls
+  301  ssh saint
+  302  cd ~/.shh
+  303  cd ~/.ssh
+  304  ls l /etc/saintblue_*
+  305  ll
+  306  vi config
+  307  cat /etc/saintblue_customization
+  308  cat /etc/saintblu_customization
+  309  vi known_hosts 
+  310  vi config 
+  311  cd /tmp
+  312  ls -l
+  313  df -h
+  314  /etc/config
+  315  /etc/config/
+  316  cd /etc/config/
+  317  cd /etc/config
+  318  cd ..
+  319  ls
+  320  cd ..
+  321  ls
+  322  cd home
+  323  ls
+  324  cd alez
+  325  cd alex
+  326  ls
+  327  ssh saint
+  328  vi ~/.ssh
+  329  vi ~/.ssh/known_hosts 
+  330  ssh saint
+  331  clear:ls
+  332  clear;ls
+  333  ssh saint
+  334  clear;ls
+  335  ssh saint
+  336  ls
+  337  clear;ls
+  338  ssh saint
+  339  vi ~/.ssh/known_hosts 
+  340  ssh saint
+  341  ~/.ssh/
+  342  cd ~/.ssh
+  343  pwd
+  344  vi known_hosts 
+  345  ssh saint
+  346  exit
+  347  ls
+  348  vi hola.txt 
+  349  exit
+  350  history
+  351  git init
+  352  gitk
+  353  exit
+  354  ls
+  355  sudo vi /etc/lightdm/lightdm.conf
+  356  sudo vi /etc/gdm/custom.con
+  357  sudo vi /etc/gdm/custom.conf
+  358  sudo -
+  359  sudo --
+  360  sudo
+  361  sudo su
+  362  shh saint
+  363  ssh saint
+  364  ls
+  365  clear;ls
+  366  ssh saint
+  367  exit
+  368  sudo su
+  369  ls
+  370  ssh sint
+  371  ssh saint
+  372  killall Discover
+  373  ps -ef | grep Discover
+  374  kill -- 2876
+  375  kill -- 2206
+  376  kill -- 2876
+  377  kill -TERM pid
+  378  kill -TERM 2876
+  379  kill -TERM 2206
+  380  ps aux
+  381  kill 1915
+  382  kill 1886
+  383  ps aux
+  384  cd ~/.ssh
+  385  vi known_hosts 
+  386  exit
+  387  ping 172.16.5.17
+  388  vi ~/.ssh/config 
+  389  exit
+  390  ssh updqa
+  391  exit
+  392  bye
+  393  close
+  394  exit
+  395  cd ..
+  396  cd alex
+  397  clear
+  398  history
+  399  clear;ls
+  400  ping safelearning.lan
+  401  ping saintblu.lan
+  402  ping safelearning.lan
+  403  ping saintblu.lan
+  404  history
+  405  scp ./2.0.0-RTM-1-g40e72cd.bin saint./tmp
+  406  ls
+  407  exir
+  408  exit
+  409  ssh saint
+  410  cd ~/.ssh
+  411  vi known_hosts 
+  412  saint 
+  413  ssh saint
+  414  exit
+  415  histoy
+  416  history
+  417  ssh saint
+  418  vi ~/.ssh
+  419  cd ~/.ssh
+  420  vi ~/.ssh
+  421  vi known_hosts 
+  422  ssh saint
+  423  vi known_hosts 
+  424  ssh saint
+  425  exit
+  426  cd :d/
+  427  cd d:/
+  428  clear
+  429  scp ./2.0.0-RTM-1-g40e72cd.bin saint./tmp
+  430  history
+  431  lsDemonstration of how to sign the web-filter.
+  432  clear
+  433  scp ./2.0.0-RTM-1-g40e72cd.bin saint./tmp
+  434  scp ./2.0.0-RTM-1-g40e72cd.bin saint:/tmp
+  435  exit
+  436  ssh saint
+  437  exit
+  438  su
+  439  clear
+  440  reboot
+  441  su
+  442  Mar 13 11:51:25 VPC systemd[1]: Starting MariaDB 10.1 database server...
+  443  exit
+  444  sudo vi /etc/default/grub
+  445  grep menuentry /boot/grub/grub.cfg
+  446  sudo vi /etc/default/grub
+  447  su
+  448  ls
+  449  curl http://localhost/login_restful/usuarios
+  450   curl -d "nombre=otroUsuario&email=prueba@ejemplo.com&pwd=1234" http://localhost/login_restful/crearUsuario  
+  451  curl http://localhost/login_restful/usuarios 
+  452  curl -d "email=prueba@e.com&pwd=1234" http://localhost/login_restful/login
+  453  clear
+  454  ch = curl_init();
+  455  php
+  456  cls
+  457  celar
+  458  clear
+  459  vi /etc/httpd/conf.d/welcome.conf
+  460  exit
+  461  ls
+  462  cp api.php /var/www/html
+  463  su cp api.php /var/www/html
+  464  su
+  465  php -S localhost:8888 api.php
+  466  http://localhost:8888/api.php/{$table}/{$id}
+  467  http://localhost:8888/api.php/{$1}/{$1}
+  468  php -S localhost:8888 api.php
+  469  http://localhost:8888/api.php/{$nombre}/{$1}
+  470  sudo service http start
+  471  sudo service httpd start
+  472  sudo service mysqld start
+  473  sudo yum install mysql-server
+  474  sudo service mysqld start
+  475  sudp /usr/bin/mysql_secure_installation
+  476  sudo /usr/bin/mysql_secure_installation
+  477  sudo yum install php php-mysql
+  478  sudo service httpd restart
+  479  chmod 777 /var/www/html/api.php
+  480  su chmod 777 /var/www/html/api.php
+  481  sudo chmod 777 /var/www/html/api.php
+  482  ls
+  483  cd var/www/html
+  484  cd /var/www/html
+  485  ls
+  486  php -S localhost:8888 api.php
+  487  http://localhost:8888/api.php/{$table}/{$id}
+  488  http://localhost:8888/api.php/{$1}/{$1}
+  489  curl_init();
+  490  curl_init() man
+  491  help
+  492  su
+  493  curl
+  494  curl -i -H "Accept: aplication/json" -X -d
+  495  curl -I -H 'Accept-Encoding: gzip,deflate' http://www.if-not-true-then-false.com
+  496  $ curl -i -H "Accept: application/json" -X POST -d "username=Ricardo&email=rmiranda@tempuri.com" http://localhost/usuarios
+  497  ifconfig
+  498  $ curl -i -H "Accept: application/json" -X POST -d "username=Ricardo&email=rmiranda@tempuri.com" http://127.0.0.1/usuarios
+  499  $ curl -i -H "Accept: application/json" -X POST -d "username=Ricardo&email=rmiranda@tempuri.com" http://67.138.105.106/support
+  500  app->run();
+  501  app->run()
+  502  app->run
+  503  clear
+  504  gatenv(PUT);
+  505  gatenv('PUT');
+  506  CLEAR
+  507  clear
+  508  ssh saint
+  509  ping www.google.com
+  510  ping google.com
+  511  ssh saint
+  512  cd ~/.ssh
+  513  ls
+  514  vi known_hosts 
+  515  exit
+  516  ssh saint
+  517  cd ~/.ssh
+  518  vi  known_hosts 
+  519  ls
+  520  cd config
+  521  ls
+  522  vi config
+  523  vi  known_hosts 
+  524  ssh saint
+  525  exit
+  526  ssh saint
+  527  ifconfig
+  528  ping google.com
+  529  cd ~/.ssh
+  530  vi known_hosts 
+  531  exit
+  532  ssh repqa
+  533  \
+  534  exit
+  535  ping webfilter.lan
+  536  ping web-filter.lan
+  537  history
+  538  history comandosusados
+  539  history > comandosusados
